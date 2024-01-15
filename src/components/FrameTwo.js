@@ -5,7 +5,7 @@ export default function FrameTwo() {
   return (
     <StyledFrameTwo>
         <div id='frame'>Frame</div>
-        <div id='two'>Two</div>
+        <div id='twoo'>Two</div>
     </StyledFrameTwo>
   )
 }
