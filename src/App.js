@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FrameTwo from "./components/FrameTwo";
 import GlobalStyles from "./components/styles/Global";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FrameThree from "./components/FrameThree";
 
 const theme = {
   colors:{
@@ -19,6 +20,7 @@ function App() {
           <Routes>
               <Route path='/' element={<Header />} />
               <Route path='/FrameTwo' element={<FrameTwo />} />
+              <Route path='/FrameThree' element={<FrameThree />} />
           </Routes>
         </Router>
     </>
